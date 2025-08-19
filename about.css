@@ -1,0 +1,441 @@
+/* ABOUT PAGE STYLES */
+.about-hero-section {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    width: 100%;
+}
+
+.about-hero-left {
+    width: 55%;
+}
+
+.about-hero-right {
+    width: 45%;
+}
+
+.about-hero-text h1 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.about-hero-button .first {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-hero-button .first:hover {
+    background-color: #333;
+}
+
+/* OUR STORY SECTION */
+.about-story {
+    padding: 5rem 0;
+    background-color: #f9f9f9;
+}
+
+.story-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.story-left {
+    width: 50%;
+}
+
+.story-left h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.story-left p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.story-right {
+    width: 50%;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.stat-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.stat-box small {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* MISSION SECTION */
+.about-mission {
+    padding: 5rem 0;
+}
+
+.mission-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.mission-left {
+    width: 50%;
+}
+
+.mission-left img {
+    /* border-radius: 10px; */
+    /* box-shadow: 0 20px 40px rgba(0,0,0,0.1); */
+}
+
+.mission-right {
+    width: 50%;
+}
+
+.mission-right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.mission-right p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.values {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.value {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.value:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.value i {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.value h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.value p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    color: #666;
+}
+
+/* PERFECT FOR YOU SECTION */
+.about-perfect {
+    padding: 5rem 0;
+    background-color: #000;
+    color: white;
+}
+
+.about-perfect h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.perfect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.perfect-card {
+    background: #111;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.perfect-card:hover {
+    transform: translateY(-5px);
+    background: #222;
+}
+
+.perfect-card i {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.perfect-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.perfect-card p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+/* WRITERS CORNER SECTION */
+.writers-corner {
+    padding: 5rem 0;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.writer-services {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.service-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-content {
+    flex: 1;
+    padding: 3rem;
+}
+
+.service-image {
+    flex: 1;
+}
+
+.service-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.service-card h3 span {
+    font-size: 1rem;
+    background: #f0f0f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.service-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.service-button.secondary {
+    background: white;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.service-button:hover {
+    background: #333;
+    transform: translateY(-3px);
+}
+
+.service-button.secondary:hover {
+    background: #f5f5f5;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 992px) {
+    .service-card,
+    .service-card.reverse {
+        flex-direction: column;
+    }
+    
+    .service-image {
+        width: 100%;
+    }
+    
+    .service-image img {
+        width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .service-content {
+        padding: 2rem;
+    }
+    
+    .service-card h3 {
+        font-size: 1.5rem;
+    }
+}
+/* CTA SECTION */
+.about-cta {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.cta-container {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.cta-container p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cta-primary {
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.cta-primary:hover {
+    background-color: #333;
+}
+
+.cta-secondary {
+    background-color: white;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.cta-secondary:hover {
+    background-color: #f5f5f5;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 768px) {
+    .about-hero-section,
+    .story-container,
+    .mission-container {
+        flex-direction: column;
+    }
+    
+    .about-hero-left,
+    .about-hero-right,
+    .story-left,
+    .story-right,
+    .mission-left,
+    .mission-right {
+        width: 100%;
+    }
+    
+    .perfect-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .values {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

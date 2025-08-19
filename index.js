@@ -1,3 +1,24 @@
+// HAMBURGER MENU
+
+const navToggle = document.querySelector('.nav-toggle');
+const links = document.querySelector('.links');
+const closeSidebar = document.querySelector('.close-sidebar');
+
+
+
+
+
+
+navToggle.addEventListener('click', function() {
+    links.classList.toggle('show-links');
+
+
+});
+
+closeSidebar.addEventListener('click', function() {
+    links.classList.remove('show-links');
+});
+
 document.addEventListener('DOMContentLoaded', function() {
   let currentSlide = 0;
   const slides = document.querySelectorAll('.testimonial-slide');
@@ -30,3 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
   showSlide(currentSlide);
   updateCounter(currentSlide);
 });
+
+
+
+
+
+
